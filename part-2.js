@@ -7,7 +7,7 @@ $(function() {
       console.log(`${value.toLowerCase()} of ${suit.toLowerCase()}`);
    });
 
-   // 2.
+   // 2)
    let firstCard = null;
    $.getJSON(`https://deckofcardsapi.com/api/deck/new/draw/`)
       .then(data => {
@@ -24,7 +24,7 @@ $(function() {
          });
       });
 
-   // 3.
+   // 3)
    let deckId = null;
    let $btn = $('button');
    let $cardArea = $('#card-area');
